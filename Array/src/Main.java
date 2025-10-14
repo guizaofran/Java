@@ -11,7 +11,7 @@ public class Main {
         pessoas.add(guilherme);
 
         for(Pessoas lista: pessoas){
-            System.out.println(lista.getIdade());
+            System.out.println(lista.getNome());
         }
 
 
