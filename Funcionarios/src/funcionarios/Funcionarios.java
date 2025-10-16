@@ -12,7 +12,11 @@ public abstract class Funcionarios {
     }
 
     public String toString() {
-        return nome + " - Salário base: R$" + salarioBase + "\nVendas: "+ getVendas()+"\nPagamento total: R$"+pagamento();
+        if(vendas<0){
+            return "'Vendas' não pode ser negativa!";
+        }else {
+            return nome + " - Salário base: R$" + salarioBase + "\nVendas: " + getVendas() + "\nPagamento total: R$" + pagamento();
+        }
     }
 
     public double pagamento() {return 0;}

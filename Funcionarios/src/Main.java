@@ -10,7 +10,7 @@ public class Main {
         ArrayList<Funcionarios> funcionarios = new ArrayList<>();
 
         funcionarios.add(new Gerente("Carlos",5870.38,30));
-        funcionarios.add(new Vendedor("João",2149.20,32));
+        funcionarios.add(new Vendedor("João",2149.20,56));
         funcionarios.add(new Vendedor("Maria",1560.50,10));
         funcionarios.add(new Vendedor("Pedro",1934.78,17));
 
