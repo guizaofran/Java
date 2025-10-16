@@ -71,4 +71,8 @@ public class Conta {
     public void setConta(String conta) {
         this.conta = conta;
     }
+
+    public double getSaldo() {
+        return saldo;
+    }
 }
