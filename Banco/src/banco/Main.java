@@ -48,12 +48,12 @@ public class Main {
             if (opcao.equals("D")) {
                 System.out.println("Qual valor deseja depositar?");
                 double valor = scanner.nextDouble();
-                ;
+
                 conta.depositar(valor);
             } else if (opcao.equals("S")) {
                 System.out.println("Qual valor deseja sacar?");
                 double valor = scanner.nextDouble();
-                ;
+
                 conta.sacar(valor);
             } else if (opcao.equals("E")) {
                 break;
